@@ -1,0 +1,6 @@
+{
+  "name": "Library Management App",
+  "description": "Fullstack library management web application with reader, book, publisher, and borrow record management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

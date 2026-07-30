@@ -1,0 +1,21 @@
+{
+  "name": "library-management-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:frontend",
+    "dev": "npm run build:frontend && node backend/server.js",
+    "start": "npm run build:frontend && node backend/server.js"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "lucide-vue-next": "^1.0.0",
+    "mongodb-memory-server": "^11.2.0",
+    "vue-chartjs": "^5.3.4"
+  }
+}
